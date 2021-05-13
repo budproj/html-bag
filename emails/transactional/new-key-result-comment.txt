@@ -1,0 +1,15 @@
+Você recebeu um novo comentário no seu resultado-chave!
+
+{{ownerFirstName}}, seus resultados-chave estão dando o que falar. Confira o comentário que você acabou de receber:
+
+---
+
+Resultado-chave: {{keyResultTitle}}
+Autor: {{authorFullName}}
+Comentário:
+{{comment}}
+
+---
+
+Para responder, acesse o Bud e navegue até a barra lateral desse resultado-chave.
+Link para o Bud: https://app.getbud.co
