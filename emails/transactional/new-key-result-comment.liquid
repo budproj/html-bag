@@ -121,7 +121,9 @@
             <p style='
               font-size: 18px;
               color: #525F7F;
-            '>Marcelo, seus resultados-chave estão dando o que falar. Confira o comentário que você acabou de receber:</p>
+            '>
+              {{ownerFirstName}}, seus resultados-chave estão dando o que falar. Confira o comentário que você acabou de receber:
+            </p>
           </div>
 
           <div style='
@@ -144,7 +146,7 @@
                     <img
                       width='50px'
                       height='50px'
-                      src='https://evascursos.com.br/wp-content/uploads/2020/03/avatar-large-square.jpg' />
+                      src='{{authorPictureURL}}' />
                   </div>
                 </td>
 
@@ -158,7 +160,7 @@
                         margin: 0;
                       '
                     >
-                      Ricardo Oliveira
+                      {{authorFullName}}
                     </h2>
 
                     <p
@@ -180,7 +182,7 @@
                           height: 100%;
                           border: 1px solid transparent;
                           border-radius: 9999px;
-                          background-color: #24CB8D;
+                          background-color: {{keyResultConfidenceTagColor}};
                           padding: 0;
                         '
                       />
@@ -196,7 +198,7 @@
                             padding: 9px 0 9px 14px;
                           '
                         >
-                          Ganho de ao menos 1 p.p. de market share em mercados importantes
+                          {{keyResultTitle}}
                         </h3>
                       </td>
                     </tr>
@@ -209,7 +211,7 @@
                       color: #8193AB;
                     '
                   >
-                    “Faremos uma reunião de alinhamento dos resultados de vendas mensais, no segundo dia útil de cada mês, para avaliar o desempenho do DVI e DVN com os responsáveis, para atualizar o status dessa OKR.”
+                    “{{keyResultComment}}"
                   </p>
                 </td>
               </tr>

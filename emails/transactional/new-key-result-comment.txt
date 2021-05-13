@@ -7,7 +7,7 @@ Você recebeu um novo comentário no seu resultado-chave!
 Resultado-chave: {{keyResultTitle}}
 Autor: {{authorFullName}}
 Comentário:
-{{comment}}
+{{keyResultComment}}
 
 ---
 
