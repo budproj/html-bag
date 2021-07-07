@@ -142,7 +142,13 @@
           text-align: left;
           padding-bottom: 5px;
         '>
-        KRs {{#if (eq cycleCadence 'QUARTERLY')}}trimestrais{{#else}}anuais{{/if}} {{cyclePeriod}}
+        KRs 
+        {{#if (eq cycleCadence 'QUARTERLY')}}
+          trimestrais
+        {{#else}}
+          anuais
+        {{/if}}
+        {{cyclePeriod}}
         </h2>
 
         <div style='
