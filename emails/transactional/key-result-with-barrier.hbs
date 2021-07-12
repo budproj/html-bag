@@ -77,7 +77,13 @@
             padding-top: 21px;
           "
           >
-            {{recipientFirstName}}, o time {{#if isMaleTeam}}do{{/if}}{{#if isFemaleTeam}}da{{/if}}{{#if isNeutralTeam}}de{{/if}} {{teamName}}} reportou uma <span style='color: #C26EFF;'>nova barreira</span>! 😣
+            {{recipientFirstName}}, o time
+            {{#if isMaleTeam}}do{{/if}}{{#if isFemaleTeam}}da{{/if}}{{#if
+              isNeutralTeam
+            }}de{{/if}}
+            {{teamName}}
+            reportou uma
+            <span style="color: #C26EFF;">nova barreira</span>! 😣
           </h1>
 
           <p
@@ -88,7 +94,9 @@
             font-weight: 400;
           "
           >
-            {{userFirstName}} acabou de compartilhar que está com problemas em um dos seus resultados-chave:
+            {{userFirstName}}
+            acabou de compartilhar que está com problemas em um dos seus
+            resultados-chave:
           </p>
         </div>
 
@@ -163,7 +171,7 @@
                   </p>
                 </div>
 
-                <table style='margin-bottom: 9px;'>
+                <table style="margin-bottom: 9px;">
                   <tr>
                     <td
                       style="
@@ -194,8 +202,9 @@
                   </tr>
                 </table>
 
-                <span style='padding-left: 21px;'>
-                  <span style='
+                <span style="padding-left: 21px;">
+                  <span
+                    style="
                     color: {{keyResultPreviousConfidenceTagColorPrimary}};
                     font-size: 10px;
                     line-height: 12px;
@@ -204,13 +213,18 @@
                     background-color: {{keyResultPreviousConfidenceTagColorBackground}};
                     border-radius: 3px;
                     padding: 5px 7px;
-                  '>
+                  "
+                  >
                     ALTA CONFIANÇA
                   </span>
 
-                  <img src='https://s3.sa-east-1.amazonaws.com/html-bag.s3.getbud.co/icons/arrow-right.png' style='padding: 0 9px; vertical-align: middle;' />
+                  <img
+                    src="https://s3.sa-east-1.amazonaws.com/html-bag.s3.getbud.co/icons/arrow-right.png"
+                    style="padding: 0 9px; vertical-align: middle;"
+                  />
 
-                  <span style='
+                  <span
+                    style="
                     color: #C266FF;
                     font-size: 10px;
                     line-height: 12px;
@@ -219,7 +233,8 @@
                     background-color: #F9F1FF;
                     border-radius: 3px;
                     padding: 5px 7px;
-                  '>
+                  "
+                  >
                     COM BARREIRA
                   </span>
                 </span>
@@ -252,7 +267,8 @@
               color: #525F7F;
             "
           >
-            Comente ou ofereça ajuda acessando o Bud e navegando até a barra lateral desse resultado-chave:
+            Comente ou ofereça ajuda acessando o Bud e navegando até a barra
+            lateral desse resultado-chave:
           </p>
 
           <div style="padding: 16px 0 0 0;">
