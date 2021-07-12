@@ -1,6 +1,6 @@
 {{recipientFirstName}}, o time {{#if isMaleTeam}}do{{/if}}{{#if isFemaleTeam}}da{{/if}}{{#if isNeutralTeam}}de{{/if}} {{teamName}} reportou uma nova barreira!
 
-{{userFirstName}} acabou de compartilhar que está com problemas em um dos seus resultados-chave:
+{{authorFirstName}} acabou de compartilhar que está com problemas em um dos seus resultados-chave:
 
 KRs {{#if isQuarterlyCadence}}trimestrais{{else}}anuais{{/if}} {{cyclePeriod}}
 ---
