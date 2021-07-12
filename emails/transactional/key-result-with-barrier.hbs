@@ -94,7 +94,7 @@
             font-weight: 400;
           "
           >
-            {{userFirstName}}
+            {{authorFirstName}}
             acabou de compartilhar que está com problemas em um dos seus
             resultados-chave:
           </p>
@@ -213,14 +213,21 @@
                     background-color: {{keyResultPreviousConfidenceTagColorBackground}};
                     border-radius: 3px;
                     padding: 5px 7px;
+                    display: {{#if hasPreviousCheckIn}}inline-block{{else}}none{{/if}};
                   "
                   >
-                    ALTA CONFIANÇA
+                    {{#if wasHighConfidence}}ALTA CONFIANÇA{{/if}}
+                    {{#if wasMediumConfidence}}MÉDIA CONFIANÇA{{/if}}
+                    {{#if wasLowConfidence}}BAIXA CONFIANÇA{{/if}}
                   </span>
 
                   <img
                     src="https://s3.sa-east-1.amazonaws.com/html-bag.s3.getbud.co/icons/arrow-right.png"
-                    style="padding: 0 9px; vertical-align: middle;"
+                    style="
+                      padding: 0 9px;
+                      vertical-align: middle;
+                      display: {{#if hasPreviousCheckIn}}inline-block{{else}}none{{/if}};
+                    "
                   />
 
                   <span
