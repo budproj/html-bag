@@ -78,9 +78,7 @@
           "
           >
             {{recipientFirstName}}, o time
-            {{#if isMaleTeam}}do{{/if}}{{#if isFemaleTeam}}da{{/if}}{{#if
-              isNeutralTeam
-            }}de{{/if}}
+            {{#if isMaleTeam}}do{{else if isFemaleTeam}}da{{else}}de{{/if}}
             {{teamName}}
             reportou uma
             <span style="color: #C26EFF;">nova barreira</span>! 😣
