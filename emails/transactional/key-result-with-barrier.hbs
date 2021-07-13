@@ -244,16 +244,18 @@
                   </span>
                 </span>
 
-                <p
-                  style="
-                    font-size: 14px;
-                    line-height: 18px;
-                    color: #8193AB;
-                    padding-top: 9px;
-                  "
-                >
-                  “{{keyResultComment}}"
-                </p>
+                {{#if hasComment}}
+                  <p
+                    style="
+                      font-size: 14px;
+                      line-height: 18px;
+                      color: #8193AB;
+                      padding-top: 9px;
+                    "
+                  >
+                    “{{keyResultComment}}"
+                  </p>
+                {{/if}}
               </td>
             </tr>
           </table>
@@ -277,7 +279,7 @@
           </p>
 
           <div style="padding: 16px 0 0 0;">
-            <a href="https://app.getbud.co/meus-resultados-chave">
+            <a href="https://app.getbud.co/pt-BR/explorar/{{teamID}}">
               <button
                 style="
                   border: 1px solid transparent;

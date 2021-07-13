@@ -7,10 +7,12 @@ KRs {{#if isQuarterlyCadence}}trimestrais{{else}}anuais{{/if}} {{cyclePeriod}}
 
 Resultado-chave: {{keyResultTitle}}
 Autor: {{authorFullName}}
+{{#if hasComment}}
 Comentário:
 {{keyResultComment}}
+{{/if}}
 
 ---
 
 Comente ou ofereça ajuda acessando o Bud e navegando até a barra lateral desse resultado-chave
-Link para o Bud: https://app.getbud.co
+Link para o time: https://app.getbud.co/pt-BR/explorar/{{teamID}}
