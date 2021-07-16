@@ -1,0 +1,18 @@
+{{recipientFirstName}}, o time {{#if isMaleTeam}}do{{/if}}{{#if isFemaleTeam}}da{{/if}}{{#if isNeutralTeam}}de{{/if}} {{teamName}} reportou baixa confiança em um resultado-chave
+
+{{authorFirstName}} acabou de compartilhar que não está otimista sobre um dos seus KRs:
+
+KRs {{#if isQuarterlyCadence}}trimestrais{{else}}anuais{{/if}} {{cyclePeriod}}
+---
+
+Resultado-chave: {{keyResultTitle}}
+Autor: {{authorFullName}}
+{{#if hasComment}}
+Comentário:
+{{keyResultComment}}
+{{/if}}
+
+---
+
+Comente ou ofereça ajuda acessando o Bud e navegando até a barra lateral desse resultado-chave
+Link para o time: https://app.getbud.co/pt-BR/explorar/{{teamID}}
