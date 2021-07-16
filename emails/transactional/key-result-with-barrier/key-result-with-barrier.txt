@@ -1,0 +1,18 @@
+{{recipientFirstName}}, o time {{#if isMaleTeam}}do{{/if}}{{#if isFemaleTeam}}da{{/if}}{{#if isNeutralTeam}}de{{/if}} {{teamName}} reportou uma nova barreira!
+
+{{authorFirstName}} acabou de compartilhar que está com problemas em um dos seus resultados-chave:
+
+KRs {{#if isQuarterlyCadence}}trimestrais{{else}}anuais{{/if}} {{cyclePeriod}}
+---
+
+Resultado-chave: {{keyResultTitle}}
+Autor: {{authorFullName}}
+{{#if hasComment}}
+Comentário:
+{{keyResultComment}}
+{{/if}}
+
+---
+
+Comente ou ofereça ajuda acessando o Bud e navegando até a barra lateral desse resultado-chave
+Link para o time: https://app.getbud.co/pt-BR/explorar/{{teamID}}
