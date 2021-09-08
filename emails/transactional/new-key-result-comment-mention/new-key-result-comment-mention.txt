@@ -1,0 +1,16 @@
+{{mentionedFirstName}}, você foi marcado em um comentário no Bud! 📍 
+
+{{authorFirstName}}, Ricardo acaba de marcar você em um comentário feito em um resultado-chave de {{keyResultTeam}}: 
+
+resultados-chave {{#if isQuarterlyCadence}}trimestrais{{else}}anuais{{/if}} {{cyclePeriod}} 
+---
+
+Resultado-chave: {{keyResultTitle}}
+Autor: {{authorFullName}}
+Comentário:
+{{keyResultComment}}
+
+---
+
+Para responder, acesse o Bud e navegue até a barra lateral desse resultado-chave.
+Link para o Bud: https://app.getbud.co
