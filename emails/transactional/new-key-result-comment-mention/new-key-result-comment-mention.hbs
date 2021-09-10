@@ -130,7 +130,8 @@
             line-height: 21px;
             font-weight: 400;
           ">
-          {{authorFirstName}} acaba de marcar você em um comentário feito em um resultado-chave de {{keyResultTeam}}:
+          {{authorFirstName}} acaba de marcar você em um comentário feito em um resultado-chave
+          {{#if isMaleTeam}}do{{else if isFemaleTeam}}da{{else}}de{{/if}} {{keyResultTeam}}:
         </p>
       </div>
 
