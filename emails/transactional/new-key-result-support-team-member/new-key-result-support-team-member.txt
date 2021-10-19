@@ -1,0 +1,28 @@
+{{recipientFirstName}}, você foi adicionado como apoio em um resultado-chave no Bud! 💪
+
+{{authorFirstName}} acaba de te incluir como suporte na execução de um resultado-chave {{#if isMaleTeam}}do{{else if isFemaleTeam}}da{{else}}de{{/if}} {{keyResultTeam}}:
+
+Resultados-chave {{#if isQuarterlyCadence}}trimestrais{{else}}anuais{{/if}} {{cyclePeriod}} 
+---
+
+Resultado-chave: {{keyResultTitle}}
+Autor: {{authorFullName}}
+Descrição:
+{{keyResultDescription}}
+
+---
+
+O que isso significa?
+
+Ser apoio em um resultado-chave significa que você atuará como suporte para o responsável principal, {{authorFullName}}, na busca pela meta.
+
+Veja o que muda na prática:
+
+- Você pode editar informações como descrição e meta
+- Você pode criar, editar e atualizar a check-list deste KR
+- Você recebe as notificações deste KR, inclusive comentários
+- Este KR passa a aparecer na sua aba Meus Resultados-Chave :)
+
+Se tiver dúvidas, sugerimos que converse com {{authorFullName}} para discutir expectativas e próximos passos :)
+
+Você encontra este KR na aba Meus Resultados-Chave: https://app.getbud.co/pt-BR/meus-resultados-chave
