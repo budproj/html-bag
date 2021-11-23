@@ -217,18 +217,20 @@
                   </tr>
                 </table>
 
-                <p
-                  style="
-                      font-size: 14px;
-                      line-height: 21px;
-                      color: #8193AB;
-                    "
-                >
-                  <span
-                    style="color: #525F7F; font-weight: 700; display: block;"
-                  >Descrição:</span>
-                  {{keyResultDescription}}
-                </p>
+                {{#if keyResultDescription}}
+                  <p
+                    style="
+                        font-size: 14px;
+                        line-height: 21px;
+                        color: #8193AB;
+                      "
+                  >
+                    <span
+                      style="color: #525F7F; font-weight: 700; display: block;"
+                    >Descrição:</span>
+                    {{keyResultDescription}}
+                  </p>
+                {{/if}}
               </td>
             </tr>
           </table>
