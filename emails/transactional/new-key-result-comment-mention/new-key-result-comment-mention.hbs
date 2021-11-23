@@ -156,15 +156,29 @@
         <table cellspacing="18px" table-layout="fixed" style="min-width: 100%; border-collapse: collapse;">
           <tr>
             <td style="vertical-align: top; width: 50px; padding-right: 14px;">
-              <div style="
+                <div
+                  style="
+                    min-width: 50px;
                     max-width: 50px;
+                    min-height: 50px;
                     max-height: 50px;
                     border: 1px solid transparent;
                     border-radius: 9999px;
                     overflow: hidden;
-                  ">
-                <img width="50px" height="50px" src="{{authorPictureURL}}" />
-              </div>
+                    line-height: 50px;
+                    background: #E2E2FF;
+                    text-align: center;
+                    color: #6F6EFF;
+                    font-weight: 700;
+                    font-size: 16.8px;
+                  "
+                >
+                {{#if authorPictureURL }}
+                  <img width="50px" height="50px" src="{{authorPictureURL}}" />
+                {{else}}
+                  {{authorInitials}}
+                {{/if}}
+                </div>
             </td>
 
             <td>
