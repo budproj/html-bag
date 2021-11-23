@@ -2,13 +2,15 @@
 
 {{authorFirstName}} acaba de te incluir como suporte na execução de um resultado-chave {{#if isMaleTeam}}do{{else if isFemaleTeam}}da{{else}}de{{/if}} {{keyResultTeam}}:
 
-Resultados-chave {{#if isQuarterlyCadence}}trimestrais{{else}}anuais{{/if}} {{cyclePeriod}} 
+Resultados-chave {{#if isQuarterlyCadence}}trimestrais{{else}}anuais{{/if}} {{cyclePeriod}}
 ---
 
 Resultado-chave: {{keyResultTitle}}
 Autor: {{authorFullName}}
+{{#if keyResultDescription}}
 Descrição:
 {{keyResultDescription}}
+{{/if}}
 
 ---
 
