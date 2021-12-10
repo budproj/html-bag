@@ -20,6 +20,7 @@ Ser apoio em um resultado-chave significa que você atuará como suporte para o 
 
 Veja o que muda na prática:
 
+- Você pode fazer check-ins neste resultado-chave
 - Você pode editar informações como descrição e meta
 - Você pode criar, editar e atualizar a check-list deste KR
 - Você recebe as notificações deste KR, inclusive comentários
