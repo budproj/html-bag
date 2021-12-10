@@ -1,0 +1,16 @@
+{{mentionedFirstName}}, you were mentioned in a comment on Bud! 📍
+
+{{authorFirstName}}, has just mentioned you in a comment made on a key result of the {{keyResultTeam}} team:
+
+{{#if isQuarterlyCadence}}Quarterly{{else}}Yearly{{/if}} OKR - {{cyclePeriod}}
+---
+
+Key-result: {{keyResultTitle}}
+Author: {{authorFullName}}
+Comment:
+{{keyResultComment}}
+
+---
+
+To reply, navigate to the Marketing page on Bud and click on this key result to see its comments on the sidebar.
+Access Bud: https://app.getbud.co

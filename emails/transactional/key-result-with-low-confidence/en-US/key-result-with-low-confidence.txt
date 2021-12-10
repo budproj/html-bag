@@ -1,0 +1,18 @@
+{{recipientFirstName}}, the {{teamName}} team just reported low confidence in a key result! 😕
+
+{{authorFirstName}} has shared that he’s not feeling optimistic about one of his key results:
+
+{{#if isQuarterlyCadence}}Quarterly{{else}}Yearly{{/if}} OKR - {{cyclePeriod}}
+---
+
+Key-result: {{keyResultTitle}}
+Author: {{authorFullName}}
+{{#if hasComment}}
+Comment:
+{{keyResultComment}}
+{{/if}}
+
+---
+
+You can comment or offer help by accessing Bud and navigating to the sidebar of this key result:
+Link for your team: https://app.getbud.co/en-US/explore/{{teamID}}

@@ -1,0 +1,31 @@
+{{recipientFirstName}}, you have been added as a support team member for a key result on Bud! 💪
+
+{{authorFirstName}} has just added you as support for a key result of the {{keyResultTeam}} team:
+
+{{#if isQuarterlyCadence}}Quarterly{{else}}Yearly{{/if}} OKR - {{cyclePeriod}}
+---
+
+Key-result: {{keyResultTitle}}
+Author: {{authorFullName}}
+{{#if keyResultDescription}}
+Description:
+{{keyResultDescription}}
+{{/if}}
+
+---
+
+What does it mean?
+
+Being part of the support team for this key result means you will help the owner of this KR, {{authorFullName}}, in the pursuit of this goal.
+
+In practice:
+
+- You are now able to make check-ins for this KR
+- You can edit its info such as description and goal
+- You can create, edit and update the check-list of this KR
+- You will receive notifications about this KR, including comments
+- This KR now appears on your My Key Results page :)
+
+If you have any questions, we suggest you seek {{authorFullName}} to discuss expectations and next steps :)
+
+You can find this KR on your My Key Results page: https://app.getbud.co/en-US/my-key-results
