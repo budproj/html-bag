@@ -1,6 +1,6 @@
 {{recipientFirstName}}, the {{teamName}} team has reported a new roadblock!
 
-{{authorFirstName}} has just shared he’s having problems with one of his key results:
+{{authorFirstName}} is having problems with a key result:
 
 {{#if isQuarterlyCadence}}Quarterly{{else}}Yearly{{/if}} OKR - {{cyclePeriod}}
 ---

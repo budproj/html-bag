@@ -1,6 +1,6 @@
 {{recipientFirstName}}, the {{teamName}} team just reported low confidence in a key result! 😕
 
-{{authorFirstName}} has shared that he’s not feeling optimistic about one of his key results:
+{{authorFirstName}} is not feeling optimistic about a key result:
 
 {{#if isQuarterlyCadence}}Quarterly{{else}}Yearly{{/if}} OKR - {{cyclePeriod}}
 ---
