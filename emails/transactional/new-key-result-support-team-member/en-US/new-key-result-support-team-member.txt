@@ -28,4 +28,4 @@ In practice:
 
 If you have any questions, we suggest you seek {{authorFullName}} to discuss expectations and next steps :)
 
-You can find this KR on your My Key Results page: https://app.getbud.co/en-US/my-key-results
+You can find this KR on your My Key Results page: https://app.getbud.co/en-US/my-key-results?utm_source=bud&utm_medium=email&utm_campaign=notification&utm_content=support_team
