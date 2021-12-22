@@ -1,4 +1,4 @@
-{{recipientFirstName}}, the {{teamName}} team just reported low confidence in a key result! 😕
+{{recipientFirstName}}, the {{teamName}} team just reported low confidence in a key result! 😕
 
 {{authorFirstName}} is not feeling optimistic about a key result:
 
