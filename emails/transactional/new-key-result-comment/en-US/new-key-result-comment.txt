@@ -12,5 +12,5 @@ Comment:
 
 ---
 
-To reply, acess Bud and navigate to the sidebar of this key result:
-Access Bud: https://app.getbud.co
+To reply, acess Bud and navigate to the sidebar of this key result:
+Access Bud: https://app.getbud.co?utm_source=bud&utm_medium=email&utm_campaign=notification&utm_content=comment

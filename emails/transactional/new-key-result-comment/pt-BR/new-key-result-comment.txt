@@ -13,4 +13,4 @@ Comentário:
 ---
 
 Para responder, acesse o Bud e navegue até a barra lateral desse resultado-chave.
-Link para o Bud: https://app.getbud.co
+Link para o Bud: https://app.getbud.co?utm_source=bud&utm_medium=email&utm_campaign=notification&utm_content=comment

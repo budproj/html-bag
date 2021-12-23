@@ -1,4 +1,4 @@
-{{recipientFirstName}}, the {{teamName}} team just reported low confidence in a key result! 😕
+{{recipientFirstName}}, the {{teamName}} team just reported low confidence in a key result! 😕
 
 {{authorFirstName}} is not feeling optimistic about a key result:
 
@@ -15,4 +15,4 @@ Comment:
 ---
 
 You can comment or offer help by accessing Bud and navigating to the sidebar of this key result:
-Link for your team: https://app.getbud.co/en-US/explore/{{teamID}}
+Link for your team: https://app.getbud.co/en-US/explore/{{teamID}}?utm_source=bud&utm_medium=email&utm_campaign=notification&utm_content=low_confidence
