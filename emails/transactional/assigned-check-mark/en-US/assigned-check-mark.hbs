@@ -1,0 +1,352 @@
+<html>
+  <head>
+    <style>
+      @font-face { font-family: "CircularStd"; src:
+      url("https://s3-sa-east-1.amazonaws.com/execution-mode.s3.getbud.co/auth0/fonts/CircularStd-Regular.woff2")
+      format("woff2"); font-weight: 100 400; font-style: normal; font-display:
+      swap; } @font-face { font-family: "CircularStd"; src:
+      url("https://s3-sa-east-1.amazonaws.com/execution-mode.s3.getbud.co/auth0/fonts/CircularStd-RegularItalic.woff2")
+      format("woff2"); font-weight: 100 400; font-style: italic; font-display:
+      swap; } @font-face { font-family: "CircularStd"; src:
+      url("https://s3-sa-east-1.amazonaws.com/execution-mode.s3.getbud.co/auth0/fonts/CircularStd-Medium.woff2")
+      format("woff2"); font-weight: 500 600; font-style: normal; font-display:
+      swap; } @font-face { font-family: "CircularStd"; src:
+      url("https://s3-sa-east-1.amazonaws.com/execution-mode.s3.getbud.co/auth0/fonts/CircularStd-MediumItalic.woff2")
+      format("woff2"); font-weight: 500 600; font-style: italic; font-display:
+      swap; } @font-face { font-family: "CircularStd"; src:
+      url("https://s3-sa-east-1.amazonaws.com/execution-mode.s3.getbud.co/auth0/fonts/CircularStd-Bold.woff2")
+      format("woff2"); font-weight: 700 800; font-style: normal; font-display:
+      swap; } @font-face { font-family: "CircularStd"; src:
+      url("https://s3-sa-east-1.amazonaws.com/execution-mode.s3.getbud.co/auth0/fonts/CircularStd-BoldItalic.woff2")
+      format("woff2"); font-weight: 700 800; font-style: italic; font-display:
+      swap; } @font-face { font-family: "CircularStd"; src:
+      url("https://s3-sa-east-1.amazonaws.com/execution-mode.s3.getbud.co/auth0/fonts/CircularStd-BlackItalic.woff2")
+      format("woff2"); font-weight: 900; font-style: italic; font-display: swap;
+      } @font-face { font-family: "CircularStd"; src:
+      url("https://s3-sa-east-1.amazonaws.com/execution-mode.s3.getbud.co/auth0/fonts/CircularStd-Black.woff2")
+      format("woff2"); font-weight: 900; font-style: normal; font-display: swap;
+      }
+    </style>
+
+  </head>
+
+  <body style="background-color: #EEF2FC; padding: 34px 0;">
+    <center>
+      <div
+        style='
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+            margin: 0;
+            padding: 44px 24px;
+            border-collapse: collapse !important;
+            background-color: #FFFFFF;
+            width: 560px;
+            border: 1px solid transparent;
+            border-radius: 10px;
+            box-shadow: 0px 0px 56px rgba(83, 83, 191, 0.07);
+            font-family: "CircularStd", Arial, sans-serif;
+          '
+      >
+        <img
+          src="https://s3.sa-east-1.amazonaws.com/html-bag.s3.getbud.co/branding/bud-logotype-sm.png"
+          alt="Logotipo do Bud"
+          width="105px"
+          height="auto"
+          style="
+              -ms-interpolation-mode: bicubic;
+              border: 0;
+              height: auto;
+              line-height: 100%;
+              outline: none;
+              text-decoration: none;
+            "
+        />
+
+        <div style="padding: 44px 0; width: 410px;">
+          <img
+            style="width: 315px;"
+            src="https://s3.sa-east-1.amazonaws.com/html-bag.s3.getbud.co/images/assigned-check-mark.png"
+            alt="duas pessoas conversando sobre uma tarefa"
+          />
+          <h1
+            style="
+              font-weight: 700;
+              font-size: 21px;
+              font-weight: 700;
+              color: #364059;
+              padding-top: 21px;
+            "
+          >
+            {{assignedUserFirstName}}, you were chosen to be in charge of a task on Bud! ✅
+          </h1>
+        </div>
+
+        <h2
+          style="
+            font-weight: 700;
+            font-size: 12px;
+            color: #8491B0;
+            text-transform: uppercase;
+            text-align: left;
+            padding-bottom: 5px;
+          "
+        >
+          {{#if isQuarterlyCadence}}Quarterly{{else}}Yearly{{/if}}
+          OKR - 
+          {{cyclePeriod}}
+        </h2>
+
+        <div
+          style="
+            border-top: 1px solid #DDE5EE;
+            border-bottom: 1px solid #DDE5EE;
+            padding: 21px 0;
+          "
+        >
+          <table
+            cellspacing="18px"
+            table-layout="fixed"
+            style="min-width: 100%; border-collapse: collapse;"
+          >
+            <tr>
+              <td
+                style="vertical-align: top; width: 50px; padding-right: 14px;"
+              >
+                <div
+                  style="
+                    min-width: 50px;
+                    max-width: 50px;
+                    min-height: 50px;
+                    max-height: 50px;
+                    border: 1px solid transparent;
+                    border-radius: 9999px;
+                    overflow: hidden;
+                    line-height: 50px;
+                    background: #E2E2FF;
+                    text-align: center;
+                    color: #6F6EFF;
+                    font-weight: 700;
+                    font-size: 16.8px;
+                  "
+                >
+                {{#if actionUserPicture }}
+                  <img width="50px" height="50px" src="{{actionUserPicture}}" />
+                {{else}}
+                  {{authorInitials}}
+                {{/if}}
+                </div>
+              </td>
+
+              <td>
+                <div style="padding-bottom: 14px;">
+                  <h2
+                    style="
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 21px;
+                        color: #525F7F;
+                        margin: 0;
+                        padding-bottom: 5px;
+                      "
+                  >
+                    {{actionUserFullName}}
+                  </h2>
+
+                  <p
+                    style="
+                        font-size: 14px;
+                        line-height: 17px;
+                        color: #8193AB;
+                        margin: 0;
+                      "
+                  >
+                    has assigned you a task in a key result:
+                  </p>
+                </div>
+
+                <table>
+                  <tr>
+                    <td
+                      style="
+                          width: 6px;
+                          height: 100%;
+                          border: 1px solid transparent;
+                          border-radius: 9999px;
+                          background-color: {{keyResultConfidenceColor}};
+                          padding: 0;
+                          color: #364059;
+                        "
+                    ></td>
+
+                    <td>
+                      <h3
+                        style="
+                            color: #525F7F;
+                            font-size: 14px;
+                            font-weight: 700;
+                            line-height: 16px;
+                            margin: 0;
+                            padding: 9px 0 9px 14px;
+                          "
+                      >
+                        {{keyResultTitle}}
+                      </h3>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td></td>
+                    <td>
+                    </td>
+                  </tr>
+                </table>
+
+                <div
+                  style="
+                    border-top: 1px solid #DDE5EE;
+                    padding-bottom: 18px;
+                  "
+                ></div>
+
+                <h3
+                  style="
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 12px;
+                    line-height: 15px;
+                    letter-spacing: 0.5px;
+                    text-transform: uppercase;
+                    color: #525F7F;
+                  "
+                >Check-list</h3>
+
+                <table style="width: 100%;">
+                  <tr>
+                    <td>
+                      <div
+                        style="
+                          background: #FFFFFF;
+                          border: 1px solid #D2DEED;
+                          box-sizing: border-box;
+                          border-radius: 5px;
+                          width: 24px;
+                          height: 24px;
+                        "
+                      ></div>
+                    </td>
+                    <td>
+                      <h4
+                        style="
+                          font-style: normal;
+                          font-weight: 450;
+                          font-size: 14px;
+                          line-height: 24px;
+                          color: #121415;
+                          margin-bottom: 0;
+                        "
+                      >{{checkMarkDescription}}</h4>
+                      <p
+                        style="
+                          font-style: normal;
+                          font-weight: normal;
+                          font-size: 12px;
+                          line-height: 15px;
+                          color: #8193AB;
+                          margin-top: 0;
+                        "
+                      >{{assignedUserFullName}}</p>
+                    </td>
+                    <td>
+                      <img
+                        src="{{assignedUserPicture}}"
+                        style="
+                          width: 40px;
+                          height: 40px;
+                          border-radius: 30px;
+                        "
+                      />
+                    </td>
+                  </tr>
+                  
+
+
+
+                </table>
+
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div
+          style="
+            padding: 34px 0 0 0;
+            width: 400px;
+          "
+        >
+          <p
+            style="
+                font-size: 14px;
+                line-height: 26px;
+                color: #525F7F;
+              "
+          >
+            If you have any questions about this task, we suggest you reach out to
+            <span style="font-weight: 700; color: #6F6EFF;" >{{actionUserFullName}}</span>. :)
+          </p>
+
+          <p
+            style="
+                font-size: 14px;
+                line-height: 26px;
+                font-weight: 700;
+                color: #525F7F;
+              "
+          >
+
+            You can find this this task on the sidebar of this key result:
+          </p>
+
+          <div style="padding: 16px 0 0 0;">
+            <a href="https://app.canary.getbud.co/explore/{{teamId}}?utm_source=bud&utm_medium=email&utm_campaign=notification&utm_content=assigned-checkmark">
+              <button
+                style="
+                    border: 1px solid transparent;
+                    border-radius: 6px;
+                    background-color: #6F6EFF;
+                    color: #FFFFFF;
+                    font-size: 14px;
+                    font-weight: 700;
+                    padding: 16px 0;
+                    width: 300px;
+                    cursor: pointer;
+                  "
+              >
+                Access Bud
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <img
+        src="https://s3.sa-east-1.amazonaws.com/html-bag.s3.getbud.co/branding/bud-logotype-grayscale-sm.png"
+        alt="Logotipo do Bud em tons de cinza"
+        style="
+            -ms-interpolation-mode: bicubic;
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+            padding-top: 34px;
+          "
+      />
+
+    </center>
+  </body>
+</html>
+
+
+
