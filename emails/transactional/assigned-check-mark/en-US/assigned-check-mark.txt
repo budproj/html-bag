@@ -1,0 +1,19 @@
+{{assignedUserFirstName}}, you were chosen to be in charge of a task on Bud! ✅
+
+{{actionUserFullName}} has assigned you a task in a key result:
+
+{{#if isQuarterlyCadence}}Quarterly{{else}}Yearly{{/if}} OKR - {{cyclePeriod}}
+---
+
+Key-result: {{keyResultTitle}}
+{{#if keyResultDescription}}
+Checkmark:
+{{checkMarkDescription}}
+{{/if}}
+
+---
+
+If you have any questions about this task, we suggest you reach out to {{actionUserFullName}}. :)
+
+You can find this this task on the sidebar of this key result:
+https://app.canary.getbud.co/explore/{{teamId}}?utm_source=bud&utm_medium=email&utm_campaign=notification&utm_content=assigned-checkmark"

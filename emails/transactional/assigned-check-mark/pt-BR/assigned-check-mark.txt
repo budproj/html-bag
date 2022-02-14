@@ -1,0 +1,18 @@
+{{assignedUserFirstName}}, você foi escolhid{{#if isMale}}o{{else if isFemale}}a{{else}}e{{/if}} como responsável por uma tarefa no Bud! ✅
+
+{{actionUserFullName}} definiu você como responsável por uma tarefa em um KR:
+
+Resultados-chave {{#if isQuarterlyCadence}}trimestrais{{else}}anuais{{/if}} {{cyclePeriod}}
+---
+
+Resultado-chave: {{keyResultTitle}}
+{{#if checkMarkDescription}}
+Descrição:
+{{checkMarkDescription}}
+{{/if}}
+
+---
+
+Se tiver dúvidas, sugerimos que converse com {{actionUserFullName}} para discutir expectativas e próximos passos :)
+
+Você encontra este KR na aba Meus Resultados-Chave: https://app.canary.getbud.co/explorar/{{teamId}}?utm_source=bud&utm_medium=email&utm_campaign=notification&utm_content=assigned-checkmark
