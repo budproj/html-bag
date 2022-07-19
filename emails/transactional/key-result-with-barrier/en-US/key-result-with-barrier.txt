@@ -15,4 +15,4 @@ Comment:
 ---
 
 You can comment or offer help by accessing Bud and navigating to the sidebar of this key result:
-Link for your team: https://app.getbud.co/en-US/explore/{{teamID}}?utm_source=bud&utm_medium=email&utm_campaign=notification&utm_content=roadblock
+Link for your team: https://app.getbud.co/en-US/explore/{{teamID}}?keyResultId={{keyResultId}}&utm_source=bud&utm_medium=email&utm_campaign=notification&utm_content=roadblock
