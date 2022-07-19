@@ -28,4 +28,4 @@ Veja o que muda na prática:
 
 Se tiver dúvidas, sugerimos que converse com {{authorFullName}} para discutir expectativas e próximos passos :)
 
-Você encontra este KR na aba Meus Resultados-Chave: https://app.getbud.co/pt-BR/meus-resultados-chave?utm_source=bud&utm_medium=email&utm_campaign=notification&utm_content=support_team
+Você encontra este KR na aba Meus Resultados-Chave: https://app.getbud.co/pt-BR/meus-resultados-chave?keyResultId={{keyResultId}}&utm_source=bud&utm_medium=email&utm_campaign=notification&utm_content=support_team

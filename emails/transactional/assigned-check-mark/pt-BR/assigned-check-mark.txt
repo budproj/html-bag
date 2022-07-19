@@ -15,4 +15,4 @@ Descrição:
 
 Se tiver dúvidas, sugerimos que converse com {{actionUserFullName}} para discutir expectativas e próximos passos :)
 
-Você encontra este KR na aba Meus Resultados-Chave: https://app.canary.getbud.co/explorar/{{teamId}}?utm_source=bud&utm_medium=email&utm_campaign=notification&utm_content=assigned-checkmark
+Você encontra este KR na aba Meus Resultados-Chave: https://app.canary.getbud.co/explorar/{{teamId}}?keyResultId={{keyResultId}}&utm_source=bud&utm_medium=email&utm_campaign=notification&utm_content=assigned-checkmark

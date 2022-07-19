@@ -13,4 +13,4 @@ Comment:
 ---
 
 To reply, navigate to the Marketing page on Bud and click on this key result to see its comments on the sidebar.
-Access Bud: https://app.getbud.co?utm_source=bud&utm_medium=email&utm_campaign=notification&utm_content=mention
+Access Bud: https://app.getbud.co?keyResultId={{keyResultId}}&utm_source=bud&utm_medium=email&utm_campaign=notification&utm_content=mention
