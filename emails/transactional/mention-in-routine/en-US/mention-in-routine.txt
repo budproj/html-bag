@@ -1,0 +1,8 @@
+  {{recipientFirstName}}, you were mentioned in a comment on Bud! 💬
+
+{{firstName}} {{lastName}}  mentioned you in a comment related to a routine:
+
+Weekly Retrospective
+{{commentText}}
+
+ Access Bud to reply to this comment:
