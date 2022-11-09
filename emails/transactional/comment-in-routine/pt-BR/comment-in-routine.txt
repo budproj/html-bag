@@ -1,0 +1,8 @@
+Você recebeu um novo comentário em uma Rotina do Bud! 💬
+
+{{firstName}} {{lastName}} comentou na sua resposta de uma rotina:
+
+Retrospectiva da Semana
+{{commentText}}
+
+Acesse o Bud para responder este comentário:

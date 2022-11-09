@@ -1,0 +1,8 @@
+{{recipientFirstName}}, você foi marcado em um comentário no Bud! 💬
+
+{{firstName}} {{lastName}} marcou você em um comentário em uma rotina:
+
+Retrospectiva da Semana
+{{commentText}}
+
+Acesse o Bud para responder este comentário:

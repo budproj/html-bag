@@ -1,0 +1,8 @@
+You received a new comment on a Routine on Bud! 💬
+
+{{firstName}} {{lastName}} commented on your answer to a routine:
+
+Weekly Retrospective
+{{commentText}}
+
+ Access Bud to reply to this comment:
