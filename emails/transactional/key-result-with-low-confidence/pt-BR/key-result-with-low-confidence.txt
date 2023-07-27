@@ -15,4 +15,4 @@ Comentário:
 ---
 
 Comente ou ofereça ajuda acessando o Bud e navegando até a barra lateral desse resultado-chave
-Link para o time: https://app.getbud.co/pt-BR/explorar/{{teamID}}?keyResultId={{keyResultId}}&utm_source=bud&utm_medium=email&utm_campaign=notification&utm_content=low_confidence
+Link para o time: https://app.getbud.co/explore/{{teamID}}?keyResultId={{keyResultId}}&utm_source=bud&utm_medium=email&utm_campaign=notification&utm_content=low_confidence
